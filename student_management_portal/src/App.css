@@ -416,6 +416,15 @@ h2 {
   color: #273830;
   font-size: 12px;
 }
+.student-name-link {
+  display: block;
+  color: #273830;
+  font-size: 12px;
+  font-weight: 700;
+}
+.student-name-link:hover {
+  color: var(--green);
+}
 .student-cell small {
   display: block;
   color: #99a59e;
@@ -565,6 +574,9 @@ h2 {
 }
 .detail-header .intro {
   margin-bottom: 0;
+}
+.detail-header > .status {
+  margin-left: auto;
 }
 .divider {
   padding: 0 8px;
@@ -739,6 +751,9 @@ h2 {
   .detail-action {
     margin: 8px 0 0;
     width: 100%;
+  }
+  .detail-header > .status {
+    margin: 8px 0 0;
   }
   .detail-header h1 {
     font-size: 34px;
